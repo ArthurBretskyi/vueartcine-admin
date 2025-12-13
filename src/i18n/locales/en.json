@@ -1,0 +1,78 @@
+{
+  "pages": {
+    "admin": {
+      "title": "Admin Panel",
+      "importLink": "Import Collections to Data Base",
+      "collectionsLink": "Collections",
+      "importPanel": {
+        "importButton": "Import",
+        "documentNameLabel": "Document's Name"
+      },
+      "collectionSelect": {
+        "label": "Select Collection",
+        "placeholder": "collections:"
+      }
+    },
+    "register": {
+      "title": "Create an account",
+      "alreadyHaveAccount": "Already Have Account?",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "google": "continue with Google"
+    },
+    "login": {
+      "title": "Login to the system",
+      "noAccount": "Don't have an account yet?",
+      "email": "Email",
+      "password": "Password",
+      "google": "continue with Google",
+      "user_not_found": "User not found"
+    },
+    "cityCinema": {
+      "cities": "Cities",
+      "selectCity": "Select City",
+      "placeholder": "placeholder"
+    },
+    "home": {
+      "title": "Now in cinemas"
+    },
+    "map": {
+      "title": "Cinemas of VueArtCine",
+      "label": "The best cinema chain in Ukraine",
+      "mark": {
+        "name": "Lviv"
+      }
+    }
+  },
+  "components": {
+    "burger": {
+      "openMenu": "Open Menu"
+    },
+    "location": {
+      "chooseCity": "Choose City"
+    },
+    "userAuth": {
+      "signIn": "SignIn",
+      "logIn": "LogIn"
+    },
+    "userDropDown": {
+      "userDashboard": "Personal Area"
+    },
+    "navigationMenu": {
+      "nowInCinema": "Now in cinemas",
+      "comingSoon": "Coming soon",
+      "buyPopcornOnline": "Buy popcorn online",
+      "cinemas": "Cinemas"
+    }
+  },
+  "errors": {
+    "smthWrong": "Something Went Wrong",
+    "passwordsNotMatch": "Passwords Not Match"
+  },
+  "buttons": {
+    "submit": "Submit"
+  }
+}

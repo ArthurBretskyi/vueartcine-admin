@@ -1,0 +1,46 @@
+@use './variables' as *;
+@use './mixins' as *;
+
+.button {
+  display: inline-block;
+  text-align: center;
+  padding: 16px 30px;
+  color: $decor-color-third;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.45; /* 22/14 */
+  letter-spacing: 2px;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    border: 1px solid $decor-color-third;
+    color: $creamy-color;
+  }
+}
+
+.input {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid $creamy-color;
+  border-radius: 8px;
+  font-family: $font-main;
+  background-color: transparent;
+  color: $text-color;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $decor-color-third;
+    color: $decor-color-third;
+  }
+  &::placeholder {
+    &:hover {
+      color: $decor-color-third;
+    }
+  }
+}
+
+label {
+  color: $creamy-color;
+}

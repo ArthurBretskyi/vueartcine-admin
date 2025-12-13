@@ -1,0 +1,78 @@
+{
+  "pages": {
+    "admin": {
+      "title": "Адміністраторьска",
+      "importLink": "Імпортувати колекції до БД",
+      "collectionsLink": "Колекції",
+      "importPanel": {
+        "importButton": "Відправити",
+        "documentNameLabel": "Назва документу"
+      },
+      "collectionSelect": {
+        "label": "Оберіть колекцію",
+        "placeholder": "колекції:"
+      }
+    },
+    "register": {
+      "title": "Створіть обліковий запис",
+      "alreadyHaveAccount": "Вже маєте акаунт?",
+      "firstName": "Ім'я",
+      "lastName": "Прізвище",
+      "email": "Email",
+      "password": "Пароль",
+      "confirmPassword": "Підтвердьте пароль",
+      "google": "продовжити з Google"
+    },
+    "login": {
+      "title": "Увійти в систему",
+      "noAccount": "Ще немає облікового запису?",
+      "email": "Email",
+      "password": "Пароль",
+      "google": "продовжити з Google",
+      "user_not_found": "Користувача не знайдено"
+    },
+    "cityCinema": {
+      "cities": "Міста",
+      "selectCity": "Оберіть місто",
+      "placeholder": "placeholder"
+    },
+    "home": {
+      "title": "Зараз у кіно"
+    },
+    "map": {
+      "title": "Кінотеатри VueArtCine",
+      "label": "Найкраща мережа кінотеатрів в Україні",
+      "mark": {
+        "name": "Львів"
+      }
+    }
+  },
+  "components": {
+    "burger": {
+      "openMenu": "Відкрити Меню"
+    },
+    "location": {
+      "chooseCity": "Оберіть місто"
+    },
+    "userAuth": {
+      "signIn": "Зареєструватись",
+      "logIn": "Увійти"
+    },
+    "userDropDown": {
+      "userDashboard": "Особистий Кабінет"
+    },
+    "navigationMenu": {
+      "nowInCinema": "Зараз у кіно",
+      "comingSoon": "Скоро у прокаті",
+      "buyPopcornOnline": "Купити попкорн онлайн",
+      "cinemas": "Кінотеатри"
+    }
+  },
+  "errors": {
+    "smthWrong": "Щось пішло не так",
+    "passwordsNotMatch": "Паролі не збігаються"
+  },
+  "buttons": {
+    "submit": "Надіслати"
+  }
+}
