@@ -1,5 +1,5 @@
 <template>
-    <CinemasViewBase status="now_playing" aria-label="Now in cinemas" />
+    <CinemasViewBase status="coming_soon" aria-label="Soon in cinemas" />
 </template>
 
 <script setup>

@@ -14,7 +14,8 @@
                     <li><router-link @click="close" :to="{ name: 'NowInCinemas' }">{{
                         $t('components.navigationMenu.nowInCinema')
                     }}</router-link></li>
-                    <li><router-link @click="close" to="/soon">{{ $t('components.navigationMenu.comingSoon')
+                    <li><router-link @click="close" :to="{ name: 'SoonInCinemas' }">{{
+                        $t('components.navigationMenu.comingSoon')
                     }}</router-link></li>
                     <li><router-link @click="close" to="/popcorn">{{ $t('components.navigationMenu.buyPopcornOnline')
                     }}</router-link></li>
