@@ -45,6 +45,9 @@
       "mark": {
         "name": "Lviv"
       }
+    },
+    "snacks": {
+      "title": "The Prancing Pony"
     }
   },
   "components": {
@@ -64,7 +67,7 @@
     "navigationMenu": {
       "nowInCinema": "Now in cinemas",
       "comingSoon": "Coming soon",
-      "buyPopcornOnline": "Buy popcorn online",
+      "snacks": "Snacks",
       "cinemas": "Cinemas"
     }
   },
@@ -73,6 +76,7 @@
     "passwordsNotMatch": "Passwords Not Match"
   },
   "buttons": {
-    "submit": "Submit"
+    "submit": "Submit",
+    "addToCart": "Add to Cart"
   }
 }

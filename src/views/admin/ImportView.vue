@@ -31,13 +31,29 @@ async function handleImport({ fileData, customId }) {
         return
     }
 
+    const isSingleDocument =
+        !!customId && !Array.isArray(fileData)
+
     await generalApiOperation(async () => {
-        await importJsonToFirestore(selectedCollection.value, fileData, customId)
-        message.value = customId
-            ? `✅ Дані імпортовано до "${selectedCollection.value}/${customId}".`
-            : `✅ Дані імпортовано до "${selectedCollection.value}".`
+        if (isSingleDocument) {
+            await importJsonToFirestore(
+                selectedCollection.value,
+                fileData,
+                customId
+            )
+
+            message.value = `✅ Дані імпортовано до "${selectedCollection.value}/${customId}".`
+        } else {
+            await importJsonToFirestore(
+                selectedCollection.value,
+                fileData
+            )
+
+            message.value = `✅ Дані імпортовано до "${selectedCollection.value}".`
+        }
     })
 }
+
 </script>
   
 <style  lang="scss" >

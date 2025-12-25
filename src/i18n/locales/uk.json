@@ -45,6 +45,9 @@
       "mark": {
         "name": "Львів"
       }
+    },
+    "snacks": {
+      "title": "Гарцюючий поні"
     }
   },
   "components": {
@@ -64,7 +67,7 @@
     "navigationMenu": {
       "nowInCinema": "Зараз у кіно",
       "comingSoon": "Скоро у прокаті",
-      "buyPopcornOnline": "Купити попкорн онлайн",
+      "snacks": "Снеки",
       "cinemas": "Кінотеатри"
     }
   },
@@ -73,6 +76,7 @@
     "passwordsNotMatch": "Паролі не збігаються"
   },
   "buttons": {
-    "submit": "Надіслати"
+    "submit": "Надіслати",
+    "addToCart": "Додати в кошик"
   }
 }

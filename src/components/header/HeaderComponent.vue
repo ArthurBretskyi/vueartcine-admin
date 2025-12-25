@@ -11,17 +11,17 @@
                 <nav class="header__menu menu">
                     <ul class="menu__list">
                         <li><router-link @click="close" :to="{ name: 'NowInCinemas' }" class="menu__item">{{
-                                                        $t('components.navigationMenu.nowInCinema')
-                                                        }}</router-link></li>
+                            $t('components.navigationMenu.nowInCinema')
+                        }}</router-link></li>
                         <li><router-link @click="close" :to="{ name: 'SoonInCinemas' }" class="menu__item">{{
-                                                        $t('components.navigationMenu.comingSoon')
-                                                        }}</router-link></li>
-                        <li><router-link @click="close" to="/popcorn" class="menu__item">{{
-                                                        $t('components.navigationMenu.buyPopcornOnline')
-                                                        }}</router-link></li>
+                            $t('components.navigationMenu.comingSoon')
+                        }}</router-link></li>
+                        <li><router-link @click="close" :to="{ name: 'Snacks' }" class="menu__item">{{
+                            $t('components.navigationMenu.snacks')
+                        }}</router-link></li>
                         <li><router-link @click="close" :to="{ name: 'MapView' }" class="menu__item">{{
-                                                        $t('components.navigationMenu.cinemas')
-                                                        }}</router-link></li>
+                            $t('components.navigationMenu.cinemas')
+                        }}</router-link></li>
                     </ul>
                 </nav>
             </div>
